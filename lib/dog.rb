@@ -1,9 +1,19 @@
   class Dog
 #@name
 #@breed
+    
+# class Person
+#   def set_name(name)
+#     @name = name
+#   end
+  
+#   def get_name()
+#     @name
+#   end
+# end
 
-    def name=(dog_name)
-      @name = dog_name
+    def name=(dogs_name)
+      @name = dogs_name
     end
 
     def name
@@ -13,7 +23,7 @@
     def breed=(dog_breed)
       @breed = dog_breed
     end
-    
+
     def breed
       @breed
     end
